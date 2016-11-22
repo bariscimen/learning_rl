@@ -78,6 +78,7 @@ celerybeat-schedule
 
 # dotenv
 .env
+.venv
 
 # virtualenv
 venv/
@@ -93,3 +94,7 @@ ENV/
 ### IPythonNotebook ###
 # Temporary data
 .ipynb_checkpoints/
+
+# misc
+*.swp
+.DS_Store
